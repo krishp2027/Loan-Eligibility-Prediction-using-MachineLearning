@@ -1,5 +1,3 @@
-
-
 # Loan Eligibility Prediction
 
 ## Introduction
@@ -19,17 +17,17 @@ This project aims to predict the eligibility of loan applicants using machine le
 11. [License](#license)
 
 ## Installation
-To run this project, you need to have Python and Jupyter Notebook installed. Follow the steps below to set up the environment:
+To run this project, you need to have Anaconda installed. Follow the steps below to set up the environment:
 
 1. **Download the project files:**
    - Download the `Loan Eligibility.ipynb` notebook file.
    - Download the `Dataset.csv` file.
 
-2. **Install Jupyter Notebook:**
-   If you don't have Jupyter Notebook installed, you can install it using `pip`:
+2. **Create and activate a new environment:**
+   Open the Anaconda Prompt and create a new environment (e.g., `loan-env`):
    ```bash
-   pip install notebook
-
+   conda create -n loan-env python=3.8
+   conda activate loan-env
 
 ## Usage
 1. Open the Jupyter Notebook:
